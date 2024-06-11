@@ -4,7 +4,7 @@ import ImageGallery from "../ImageGallery/ImageGallery";
 import ImageModal from "../ImageModal/ImageModal";
 import Loader from "../Loader/Loader";
 import SearchBar from "../SearchBar/SearchBar";
-import { getPhotos } from "../photos-api";
+import { getPhotos } from "../../photos-api";
 
 import { useState, useEffect } from "react";
 import { Toaster } from "react-hot-toast";
