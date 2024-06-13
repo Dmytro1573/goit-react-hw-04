@@ -9,7 +9,7 @@ export default function SearchBar({ onSearch }) {
     evt.preventDefault();
     const form = evt.target;
     if (topic.trim() === "") {
-      toast.error("Please add some information to the search field");
+      return toast.error("Please add some information to the search field");
     }
     onSearch(topic);
     form.reset();

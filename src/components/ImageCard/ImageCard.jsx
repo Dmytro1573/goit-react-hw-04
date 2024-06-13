@@ -6,8 +6,8 @@ const ImageCard = ({ imgUrl, imgDescr, onClick }) => {
   };
 
   return (
-    <div className={css["image-card"]} onClick={handleClick}>
-      <img src={imgUrl} alt={imgDescr} />
+    <div className={css["image-card"]}>
+      <img src={imgUrl} alt={imgDescr} onClick={handleClick} />
     </div>
   );
 };
